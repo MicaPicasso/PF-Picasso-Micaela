@@ -236,6 +236,20 @@
         justify-content: center;
      
     }
+    .div-botones-desktop .btn-primary{
+    --bs-btn-hover-bg: nth($colores, 3);
+    --bs-btn-bg: nth($colores, 3);
+    --bs-btn-active-bg:nth($colores, 3);
+    --bs-btn-active-border-color: nth($colores, 3);
+    --bs-btn-active-color: nth($colores, 3);
+    --bs-btn-hover-color:nth($colores, 3)!important ;
+    }
+    .div-botones-desktop button a:hover{
+    color: nth($colores, 3);
+    }
+    .div-botones-desktop button:hover{
+    border: 2px solid  nth($colores, 3);
+    }
     #novedades-desktop div p{
         text-align: center;
         color: nth($colores, 1);
