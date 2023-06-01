@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!-- css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/c699f487f5.js" crossorigin="anonymous"></script>
+    
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./multimedia/favicon.png" type="image/x-icon">
+    <title>Banco L'Italia</title>
+    <meta name="description" content="Banco l'Italia || Banco L'Italia personas, empresas y productos">
+    <meta name="keywords" content="Banco, homebanking, empresas, personas, productos, institucional, tarjeta, credito">
+</head>
+
+
+<body>
+  <header>
+    <div class="container-fluid navBar">
+        <div class="row row-navBar">
+            <div class="div-menu col-4"> 
+                <button class="navbar-toggler menudesplegable" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><i class="fa-solid fa-bars icono-barra"></i></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">¡Bienvenido a <strong>nuestro banco!</strong></h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="./paginas/personas.html">Personas</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./paginas/empresas.html">Empresas</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./paginas/institucional.html">Institucional</a>
+                    </li>
+                  </ul>
+                  <form class="d-flex mt-3 formmenudesplegable" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-outline-success btnmenudesplegable" type="submit">Buscar</button>
+                  </form>
+                </div>
+            </div>
+          </nav> 
+            </div>
+            <div class="div-icono col-4 col-lg-2"> 
+                <img src="./multimedia/logo-verde.png" alt="logo Banco L'Italia">
+            </div>
+           
+
+          <!-- desktop -->
+          <div class="inicio-barra">
+            <div class="icono-desktop col-4 col-lg-2"> 
+                <img src="./multimedia/logo-verde.png" alt="logo Banco L'Italia">
+            </div>
+            <div class="idioma">
+              <h3 >IT</h3>
+            </div>
+          </div>
+
+          <div class="div-homebanking div-homebanking-mobile col-4 col-lg-2"> 
+            <button class="btn-homebanking" type="submit"><a href="./paginas/homebanking.html">HOMEBANKING</a></button>
+        </div>
+        </div>
+      </div>
+            <!-- desktop -->
+            <section class="nav2">
+              <div class="div-turnos-desktop col-lg-2">
+                <button type="submit"><a href="">TURNOS WEB</a></button>
+            </div>
+            <div class="div-navBar-desktop col-lg-4">
+                <ul class="nav nav-underline">
+                    <li class="nav-item">
+                      <a class="nav-link seccion-menu" aria-current="page" href="./paginas/personas.html">PERSONAS</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link seccion-menu" href="./paginas/empresas.html">EMPRESAS</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link seccion-menu" href="./paginas/institucional.html">INSTITUCIONAL</a>
+                    </li>
+                  </ul>
+            </div>
+            
+            <div class="div-search-desktop col-lg-2">
+                <nav class="navbar bg-body-tertiary">
+                    <div class="container-fluid btn-search">
+                      <form class="d-flex" role="search">
+                        <input class="form-control buscador me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-buscador" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                      </form>
+                    </div>
+                  </nav>
+            </div> 
+
+            <div class="div-homebanking col-4 col-lg-2"> 
+                <button class="btn-homebanking" type="submit"><a href="./paginas/homebanking.html">HOMEBANKING</a></button>
+            </div>
+          </section>
+       
+  </header>
+
+
+
+
+<!-- SECCION 2 -->
+<main class="main-inicio">
+    <img src="./multimedia/principalmobile.png"  class="principal-mobile" alt="Bienvenido Banco L'Italia">
+    <div class="imagen-index">
+      <h1>BIENVENIDO A BANCO L'ITALIA</h1>
+      <p>TU FINANCIERA DE CONFIANZA</p>
+    </div>
+
+
+    <!-- desktop -->
+<div id="carouselExampleIndicators" class="carousel slide carrusel-inicio">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner carrusel-inner-inicio">
+      <div class="carousel-item active">
+        <img src="./multimedia/cartel3.png" class="d-block w-100" alt="Tarjeta de credito">
+      </div>
+      <div class="carousel-item">
+        <img src="./multimedia/cartel2.png" class="d-block w-100" alt="Tu Banco en tu celular">
+      </div>
+      <div class="carousel-item">
+        <img src="./multimedia/cartel.png" class="d-block w-100" alt="Cobro de sueldos">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+<!-- seccion desktop de anuncios -->
+<section id="anuncios-desktop">
+    <a href=""><img src="./multimedia/nov1.jpg" alt="beneficio nuevos clientes"></a>
+    <a href=""><img src="./multimedia/nov2.jpg" alt="beneficio tarjeta L'Italia"></a>
+    <a href=""><img src="./multimedia/nov3.jpg" alt="beneficio cuenta negocio"></a>
+    <ul>
+        <li>
+            <i class="fa-solid fa-lock"></i>
+            <p><strong>Tus claves.</strong> Conocé como generar tu clave L'Italia y Usuario, clave Banelco y Token.</p>
+        </li>
+        <li>
+            <i class="fa-regular fa-circle-question"></i>
+            <p><strong>Tutoriales.</stron> Turnos, clave, blanqueo, transferencias y más.</p>
+        </li>
+        <li>
+            <i class="fa-solid fa-shield-halved"></i>
+            <p><strong>¡No caigas en la estafa!.</strong> Conocé como evitar engaños.</p>
+        </li>
+        <li>
+            <i class="fa-solid fa-car-on"></i>
+            <p>Novedades sobre el <strong>Seguro de Alquiler de Vehiculos</stron></p>
+        </li>
+    </ul>
+  </section>
+
+
+<!-- SECCION 3 BOTOn -->
+<section class="boton">
+    <img src="./multimedia/ahorros-inicio.png" class="beneficios-mobile"alt="beneficios y ahorros del Banco L'Italia">
+    <button type="submit" class="btn-ir">IR <i class="fa-solid fa-right-long arrow"></i></button>
+</section>
+
+<img src="./multimedia/beneficios.png" class="beneficios-desktop"alt="beneficios y ahorros del Banco L'Italia">
+
+
+
+    <!-- novedades en desktop -->
+    <section id="novedades-desktop">
+        <div>
+            <a href=""><img src="./multimedia/agro.png" class="imagen" alt="Seccion Agro"></a>
+            <p>Procampo: para el productor agropecuario</p>
+        </div>
+        <div>
+            <a href=""><img src="./multimedia/comex.png" class="imagen" alt="Seccion Comex"></a>
+            <p>Un impulso al desarrollo de tus negocios</p>
+        </div>
+        <div>
+            <a href=""><img src="./multimedia/inversiones.png" class="imagen" alt="seccion Inversiones"></a>
+            <p>Encontrá a las mejores alternativas de inversión</p>
+        </div>
+    </section>
+
+
+<!-- seccion ayuda SOLO desktop -->
+    <section class="ayuda-desktop">
+        <video loop="true" autoplay="autoplay" src="./multimedia/ayuda.mp4"  class="video-ayuda"></video>
+        <button type="submit" class="boton-ayuda-inicio">Ir a ayuda</button>
+    </section>
+  </main>
+
+<!-- CONTACTOS -->
+    <section class="contactos">
+        <div class="contactados">
+            <ul>
+                <li>
+                    <i class="fa-solid fa-at"></i>
+                    Contactanos
+                </li>
+                <li>
+                    <i class="fa-solid fa-phone"></i>
+                    Telefonos Utiles
+                </li>
+                <li>
+                    <i class="fa-solid fa-location-dot"></i>
+                    Sucursales y Cajeros
+                </li>
+            </ul>
+        </div>
+        <div class="atencionCliente">
+            <p>Centro de Atención al cliente</p>
+            <p>0800-543-2456</p>
+            <div>
+                <ul class="redes">
+                    <li><i class="fa-brands fa-instagram"></i></li>
+                    <li><i class="fa-brands fa-square-facebook"></i></li>
+                    <li><i class="fa-brands fa-square-twitter"></i></li>
+                    <li><i class="fa-brands fa-youtube"></i></li>
+                    <li><i class="fa-brands fa-linkedin"></i></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+<!-- FOOTER -->
+    <footer>
+        <p>Mapa del sitio - English version - Terminos y condiciones - Defensa al consumidor - Prevencion de lavado de dinero - Identificacion de clientes Pep's - Informacion para Inversores - Proteccion de datos personales - Informacion de Seguridad - Registro nacional de Informacion - Contratos de Adhesion - Ley 24.240 de defensa al consumidor - Informacion FATCA - CRS/OCDE </p>
+        <div>
+            <img src="./multimedia/logo-verde.png" alt="Logo Banco L'Italia">
+        </div>
+
+
+
+        <!-- buton -->
+
+        <button class="chat-button">
+          <svg aria-hidden="true" license="https://fontawesome.com/license" focusable="false" data-prefix="far" data-icon="comments" class="svg-inline--fa fa-comments fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M532 386.2c27.5-27.1 44-61.1 44-98.2 0-80-76.5-146.1-176.2-157.9C368.3 72.5 294.3 32 208 32 93.1 32 0 103.6 0 192c0 37 16.5 71 44 98.2-15.3 30.7-37.3 54.5-37.7 54.9-6.3 6.7-8.1 16.5-4.4 25 3.6 8.5 12 14 21.2 14 53.5 0 96.7-20.2 125.2-38.8 9.2 2.1 18.7 3.7 28.4 4.9C208.1 407.6 281.8 448 368 448c20.8 0 40.8-2.4 59.8-6.8C456.3 459.7 499.4 480 553 480c9.2 0 17.5-5.5 21.2-14 3.6-8.5 1.9-18.3-4.4-25-.4-.3-22.5-24.1-37.8-54.8zm-392.8-92.3L122.1 305c-14.1 9.1-28.5 16.3-43.1 21.4 2.7-4.7 5.4-9.7 8-14.8l15.5-31.1L77.7 256C64.2 242.6 48 220.7 48 192c0-60.7 73.3-112 160-112s160 51.3 160 112-73.3 112-160 112c-16.5 0-33-1.9-49-5.6l-19.8-4.5zM498.3 352l-24.7 24.4 15.5 31.1c2.6 5.1 5.3 10.1 8 14.8-14.6-5.1-29-12.3-43.1-21.4l-17.1-11.1-19.9 4.6c-16 3.7-32.5 5.6-49 5.6-54 0-102.2-20.1-131.3-49.7C338 339.5 416 272.9 416 192c0-3.4-.4-6.7-.7-10C479.7 196.5 528 238.8 528 288c0 28.7-16.2 50.6-29.7 64z"></path></svg></button>
+      
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>

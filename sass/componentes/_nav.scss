@@ -1,0 +1,189 @@
+
+header{
+    background-color: nth($colores, 3);
+    padding: 10px 0;
+}
+.row-navBar{
+    align-items: center;
+    justify-content: center;
+}
+.div-icono{
+    @extend %FlexRow;
+    justify-content: center;
+}
+.principal-mobile, .beneficios-mobile{
+    width: $ancho;
+  }
+.menudesplegable{
+    margin-left: 20px;
+    font-size: nth($font-siz , 4 );
+    color: nth($colores , 6 );
+}
+.formmenudesplegable .btnmenudesplegable{
+    background-color: nth($colores , 3 );
+    color:nth($colores , 6 )
+}
+.btn-homebanking{
+    background-color: nth($colores , 6 );
+    border: none;
+    border-radius: 20px;
+    padding: 10px 13px;
+}
+.btn-homebanking a{
+    text-decoration: none;
+    color:nth($colores , 3 );
+    font-weight: 600;
+    font-size: nth($font-siz , 3);
+}
+.icono-barra{
+    margin-top: 10px;
+}
+.div-homebanking{
+    padding-left: 0;
+}
+.carrusel-inicio{
+    background-color: nth($colores , 2 );
+    padding: 20px 0;
+    height: 80px;  
+}
+.barNav-personas button{
+    color:nth($colores , 6 ) 
+ }
+.barNav-personas .carrusel-bar{
+    padding: 0 50px;
+    margin-right: 0;
+}
+.barNav-personas .carrusel-bar button{
+    font-size: nth($font-siz , 2);
+    padding: 5px 10px;
+    margin: 0;
+    border: 3px solid nth($colores , 6 ) ;
+  }
+.barNav-personas .carrusel-bar .flex, .novedades-personas-mobile2 .flex{
+    @extend %FlexRow;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+.barNav-personas .carousel-item{
+    margin-right: -100%;
+   
+}
+.carrusel-inicio-empresas{
+    background-color: nth($colores , 5 ) ;
+}
+.carrusel-inicio-empresas .barNav-empresas button{
+    color:nth($colores , 3 ) ;
+    border: 3px solid nth($colores , 3 ) ;
+}
+.header-homebanking{
+    background-color: nth($colores , 6 ) ;
+  }
+.navBar .bar-homebanking{
+    @extend %FlexRow;
+    justify-content: space-around;
+}
+.btnmenuhome{
+    margin:0;
+}
+.icono-barra-home{
+    color:nth($colores , 3 )
+}
+
+@media only screen and (min-width: 576px){
+    .idioma{
+        display:block;
+        color:nth($colores , 6 )
+      }
+    .icono-desktop img{
+        width: 150px;
+        height: auto;
+    }
+    .inicio-barra{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 30px;
+        padding-bottom: 5px;
+      }
+    .nav2{
+        display: flex;
+        flex: row;
+        align-items: center;
+        justify-content:space-between;
+        padding: 10px 30px;
+        background-color: nth($colores , 4 );
+    }
+    .div-homebanking{
+        display:flex;
+        flex-direction: column;
+        justify-content: end;
+      }
+    .div-turnos-desktop{
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+    }
+    .div-turnos-desktop button{
+        background-color: nth($colores , 3 );
+        padding: 7px 20px;
+        border: none;
+        border-radius: 5px;
+      }
+    .div-turnos-desktop button a{
+        color:nth($colores , 6 );
+        text-decoration: none;
+    }
+    .div-navBar-desktop .nav-underline{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+      }
+    .div-search-desktop .navbar{
+        background-color: nth($colores , 4 ) !important;
+    }
+    .btn-buscador{
+        color:nth($colores , 6 )
+      }
+    .btn-homebanking{
+        border-radius: 5px;
+        padding: 7px 10px;
+        margin-left: 70px;
+    }
+    .btn-homebanking a{
+        font-size: nth($font-siz , 3);
+    }
+    .seccion-menu{
+        color:nth($colores , 6 );
+        font-size: nth($font-siz , 7 );
+    }
+    .nav{
+        --bs-nav-link-hover-color: nth($colores , 3 );
+    }
+    .menu-personas-desktop{
+        display: flex;
+        flex-direction: row;
+        background-color: nth($colores , 3 );
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 10px 30px 20px 30px;
+      }
+    .menu-personas-desktop button{
+        background-color: rgba(143, 191, 186, 0.8);
+        border-radius: 4px;
+        border:none;
+        color: nth($colores ,  7);
+        padding: 7px 30px;
+        font-size: nth($font-siz, 3 );
+        color: nth($colores ,  4);
+    }
+    .menu-personas-desktop .btn-outline-dark{
+        --bs-btn-hover-bg: nth($colores ,  4);
+        --bs-btn-hover-color: nth($colores ,  6);
+    
+    }
+}
+
+

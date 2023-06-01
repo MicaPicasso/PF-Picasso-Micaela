@@ -1,0 +1,14 @@
+%FlexRow{
+    display: flex;
+    flex-direction: row;
+}
+%FlexColumn{
+    display: flex;
+    flex-direction: column;
+}
+%Imagendefondo{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
