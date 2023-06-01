@@ -27,13 +27,13 @@ header{
     background-color: nth($colores , 6 );
     border: none;
     border-radius: 20px;
-    padding: 10px 13px;
+    padding: 5px 10px;
 }
 .btn-homebanking a{
     text-decoration: none;
     color:nth($colores , 3 );
     font-weight: 600;
-    font-size: nth($font-siz , 3);
+    font-size: nth($font-siz , 2);
 }
 .icono-barra{
     margin-top: 10px;

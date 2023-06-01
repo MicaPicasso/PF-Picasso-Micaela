@@ -14,10 +14,14 @@
   .contactados ul, .atencionCliente p, .atencionCliente div .redes{
     padding-left:0;
     margin-bottom: 0;
+    
   }
   .atencionCliente{
     @extend %FlexColumn;
     align-items: center;
+  }
+  .atencionCliente p{
+    text-align: center;
   }
   .redes{
     @extend %FlexRow;

@@ -1,3 +1,4 @@
+@media only screen and (min-width: 576px){
 .chat-button {
     position: relative;
     display: inline-block;
@@ -121,4 +122,5 @@
 
 .chat-button:disabled::after {
     opacity: 0;
+}
 }
